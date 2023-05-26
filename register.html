@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="public/theme/dashlite.min.css" />
+    <link id="skin-default" rel="stylesheet" href="public/theme/theme.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body class="nk-body bg-white npc-default has-aside no-touch nk-nio-theme">
+    <div class="nk-app-root">
+      <!-- main @s -->
+      <div class="nk-main">
+        <!-- wrap @s -->
+        <div class="nk-wrap">
+          <div class="web-header nk-header nk-header-fixed is-light">
+            <div class="container-lg wide-xl web-header__main">
+              <div class="nk-header-wrap">
+                <div class="nk-header-brand">
+                  <a href="index.html" class="logo-link">
+                    <img
+                      class="logo-img"
+                      src="public/images/home/nav/logo.svg"
+                      alt="logo"
+                    />
+                  </a>
+                </div>
+                <!-- .nk-header-brand -->
+                <div class="nk-header-menu">
+                  <ul class="nk-menu nk-menu-main">
+                    <li class="nk-menu-item active current-page">
+                      <a
+                        href="html/index.html"
+                        class="nk-menu-link"
+                        data-original-title=""
+                        title=""
+                      >
+                        <span class="nk-menu-text">Products</span>
+                      </a>
+                    </li>
+                    <!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                      <a
+                        href="html/components.html"
+                        class="nk-menu-link"
+                        data-original-title=""
+                        title=""
+                      >
+                        <span class="nk-menu-text">Track your Order</span>
+                      </a>
+                    </li>
+                    <!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                      <a
+                        href="html/components.html"
+                        class="nk-menu-link"
+                        data-original-title=""
+                        title=""
+                      >
+                        <span class="nk-menu-text">Contact Us</span>
+                      </a>
+                    </li>
+                    <!-- .nk-menu-item -->
+                  </ul>
+                  <!-- .nk-menu -->
+                </div>
+                <!-- .nk-header-menu -->
+                <div class="nk-header-tools">
+                  <ul class="nk-quick-nav">
+                    <li class="shopping-cart-icon">
+                      <svg
+                        width="24"
+                        height="27"
+                        viewBox="0 0 24 27"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.97671 10.6903C2.02524 10.0708 2.2998 9.49279 2.7457 9.07132C3.19159 8.64986 3.77611 8.41589 4.38284 8.41602H18.9331C19.5398 8.41589 20.1243 8.64986 20.5702 9.07132C21.0161 9.49279 21.2907 10.0708 21.3392 10.6903L22.3082 23.0507C22.3348 23.3909 22.2924 23.733 22.1837 24.0556C22.0749 24.3781 21.9022 24.6741 21.6762 24.9249C21.4503 25.1757 21.1762 25.3758 20.871 25.5128C20.5659 25.6497 20.2364 25.7205 19.9033 25.7206H3.41266C3.07952 25.7205 2.75001 25.6497 2.44487 25.5128C2.13974 25.3758 1.86558 25.1757 1.63967 24.9249C1.41376 24.6741 1.24099 24.3781 1.13223 24.0556C1.02347 23.733 0.981084 23.3909 1.00774 23.0507L1.97671 10.6903V10.6903Z"
+                          stroke="black"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M16.4845 12.1244V5.94416C16.4845 4.63289 15.976 3.37532 15.0708 2.44811C14.1656 1.5209 12.9379 1 11.6578 1C10.3776 1 9.14995 1.5209 8.24477 2.44811C7.33958 3.37532 6.83105 4.63289 6.83105 5.94416V12.1244"
+                          stroke="black"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </li>
+                    <!-- .dropdown -->
+                    <li class="dropdown user-dropdown">
+                      <a
+                        href="#"
+                        class="dropdown-toggle mr-lg-n1"
+                        data-toggle="dropdown"
+                      >
+                        <div class="user-toggle">
+                          <div class="">
+                            <svg
+                              width="28"
+                              height="28"
+                              viewBox="0 0 28 28"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M23.3337 24.5V22.1667C23.3337 19.5893 21.2443 17.5 18.667 17.5H9.33366C6.75633 17.5 4.66699 19.5893 4.66699 22.1667V24.5"
+                                stroke="#333333"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M13.9997 12.8333C16.577 12.8333 18.6663 10.744 18.6663 8.16667C18.6663 5.58934 16.577 3.5 13.9997 3.5C11.4223 3.5 9.33301 5.58934 9.33301 8.16667C9.33301 10.744 11.4223 12.8333 13.9997 12.8333Z"
+                                stroke="#333333"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </a>
+                      <div
+                        class="dropdown-menu dropdown-menu-md dropdown-menu-right dropdown-menu-s1"
+                      >
+                        <div
+                          class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block"
+                        >
+                          <div class="user-card">
+                            <div class="user-avatar">
+                              <span>AB</span>
+                            </div>
+                            <div class="user-info">
+                              <span class="lead-text">Abu Bin Ishtiyak</span>
+                              <span class="sub-text">info@softnio.com</span>
+                            </div>
+                            <div class="user-action">
+                              <a
+                                class="btn btn-icon mr-n2"
+                                href="html/user-profile-setting.html"
+                                ><em class="icon ni ni-setting"></em
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dropdown-inner">
+                          <ul class="link-list">
+                            <li>
+                              <a href="html/user-profile-regular.html"
+                                ><em class="icon ni ni-user-alt"></em
+                                ><span>View Profile</span></a
+                              >
+                            </li>
+                            <li>
+                              <a href="html/user-profile-setting.html"
+                                ><em class="icon ni ni-setting-alt"></em
+                                ><span>Account Setting</span></a
+                              >
+                            </li>
+                            <li>
+                              <a href="html/user-profile-activity.html"
+                                ><em class="icon ni ni-activity-alt"></em
+                                ><span>Login Activity</span></a
+                              >
+                            </li>
+                            <li>
+                              <a class="dark-switch" href="#"
+                                ><em class="icon ni ni-moon"></em
+                                ><span>Dark Mode</span></a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dropdown-inner">
+                          <ul class="link-list">
+                            <li>
+                              <a href="#"
+                                ><em class="icon ni ni-signout"></em
+                                ><span>Sign out</span></a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- .dropdown -->
+                    <li class="d-lg-none">
+                      <a
+                        href="#"
+                        class="toggle nk-quick-nav-icon mr-n1"
+                        data-target="sideNav"
+                        ><em class="icon ni ni-menu"></em
+                      ></a>
+                    </li>
+                  </ul>
+                  <!-- .nk-quick-nav -->
+                </div>
+                <!-- .nk-header-tools -->
+              </div>
+              <!-- .nk-header-wrap -->
+            </div>
+            <!-- .container-fliud -->
+          </div>
+          <!-- main header @e -->
+          <!-- content @s -->
+          <div class="nk-content web-content">
+            <div class="nk-content-inner">
+              <div
+                class="nk-aside mt-5"
+                data-content="sideNav"
+                data-toggle-overlay="true"
+                data-toggle-screen="lg"
+                data-toggle-body="true"
+              >
+                <div class="nk-sidebar-menu" data-simplebar>
+                  <ul class="nk-menu nk-menu-main">
+                    <li class="nk-menu-item">
+                      <a href="/about" class="nk-menu-link">
+                        <span class="nk-menu-text">Products</span>
+                      </a>
+                    </li>
+                    <!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                      <a href="/classes/NCLEX" class="nk-menu-link">
+                        <span class="nk-menu-text">Track your Order</span>
+                      </a>
+                    </li>
+                    <!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                      <a href="/classes/language" class="nk-menu-link">
+                        <span class="nk-menu-text">Contact Us</span>
+                      </a>
+                    </li>
+                    <!-- .nk-menu-item -->
+                  </ul>
+                  <!-- .nk-menu -->
+                </div>
+                <!-- .nk-sidebar-menu -->
+                <div class="nk-aside-close">
+                  <a href="#" class="toggle" data-target="sideNav"
+                    ><em class="icon ni ni-cross"></em
+                  ></a>
+                </div>
+                <!-- .nk-aside-close -->
+              </div>
+              <div class="nk-content-body">
+                <div class="nk-content-wrap">
+                  <!-- login -->
+                  <div class="login container wide-xl">
+                    <div class="login__wrapper">
+                      <div class="login-box">
+                        <div class="login-box__header">
+                          <h2>Get started.</h2>
+                          <p>
+                            Already have an account?
+                            <a href="login.html">Log In</a>
+                          </p>
+                        </div>
+                        <div class="form-group">
+                          <a href="#" class="btn btn-white">
+                            <img
+                              src="public/images/home/Google__G__Logo 1.png"
+                              alt=""
+                            />
+                            Sign up with Google
+                          </a>
+                        </div>
+                        <span> or </span>
+                        <div class="form-group">
+                          <label class="form-label" for="email"
+                            >Full Name*</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control form-control-lg"
+                            id="email"
+                            placeholder="Full Name"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label class="form-label" for="email">Email*</label>
+                          <input
+                            type="email"
+                            class="form-control form-control-lg"
+                            id="email"
+                            placeholder="mail@website.com"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label class="form-label" for="email">Password</label>
+                          <input
+                            type="password"
+                            class="form-control form-control-lg"
+                            id="password"
+                            placeholder="min.8 character"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <form action="">
+                            <input type="checkbox" id="" />
+                            <label for=""
+                              >I agree to platform's
+                              <a href="">Term of Service</a> and
+                              <a href="">Private Policy</a></label
+                            >
+                          </form>
+                        </div>
+                        <div class="form-group">
+                          <a
+                            href=""
+                            id="loginbtn"
+                            class="btn btn-lg btn-primary btn-block"
+                          >
+                            Register
+                          </a>
+                        </div>
+                      </div>
+                      <div>
+                        <svg
+                          width="618"
+                          height="430"
+                          viewBox="0 0 618 430"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g clip-path="url(#clip0_309:629)">
+                            <path
+                              d="M123.063 429.732C191.028 429.732 246.125 425.547 246.125 420.385C246.125 415.223 191.028 411.039 123.063 411.039C55.097 411.039 0 415.223 0 420.385C0 425.547 55.097 429.732 123.063 429.732Z"
+                              fill="#E6E6E6"
+                            />
+                            <path
+                              d="M94.0669 95.3499C115.484 86.2407 142.158 92.0122 168.209 96.0178C168.451 91.167 171.39 85.2632 168.312 81.879C164.572 77.7674 164.917 73.4474 167.167 69.1024C172.921 57.9917 164.677 46.1694 156.353 36.3392C154.476 34.1285 152.105 32.3915 149.432 31.2694C146.758 30.1472 143.858 29.6715 140.966 29.8809L125.546 30.9823C121.794 31.2503 118.213 32.6579 115.282 35.0167C112.352 37.3755 110.212 40.5729 109.148 44.1813C105.466 49.1888 103.495 54.1825 104.736 59.1502C99.2213 62.919 98.2947 67.4684 100.773 72.5971C102.874 75.8262 102.852 78.9695 100.677 82.0258C97.8213 85.9224 95.6339 90.2672 94.2047 94.8821L94.0669 95.3499Z"
+                              fill="#2F2E41"
+                            />
+                            <path
+                              d="M603.014 371.496H166.517C162.636 371.496 158.913 369.954 156.168 367.209C153.423 364.464 151.881 360.742 151.881 356.86C310.111 338.471 465.368 338.471 617.65 356.86C617.65 360.742 616.108 364.464 613.363 367.209C610.619 369.954 606.896 371.496 603.014 371.496Z"
+                              fill="#2F2E41"
+                            />
+                            <path
+                              d="M617.65 357.721L151.881 356.86L205.862 266.031L206.12 265.6V65.423C206.12 62.9933 206.599 60.5873 207.528 58.3425C208.458 56.0977 209.821 54.058 211.539 52.3399C213.257 50.6219 215.297 49.259 217.542 48.3293C219.786 47.3996 222.192 46.9212 224.622 46.9214H542.327C544.756 46.9212 547.162 47.3996 549.407 48.3293C551.652 49.259 553.691 50.6219 555.41 52.3399C557.128 54.058 558.49 56.0977 559.42 58.3425C560.35 60.5873 560.828 62.9933 560.828 65.423V266.978L617.65 357.721Z"
+                              fill="#3F3D56"
+                            />
+                            <path
+                              d="M224.2 59.8354C222.602 59.8372 221.071 60.4728 219.941 61.6026C218.811 62.7324 218.175 64.2642 218.174 65.862V248.382C218.175 249.979 218.811 251.511 219.941 252.641C221.071 253.771 222.602 254.406 224.2 254.408H545.331C546.929 254.406 548.461 253.771 549.59 252.641C550.72 251.511 551.356 249.979 551.358 248.382V65.862C551.356 64.2643 550.72 62.7325 549.591 61.6027C548.461 60.4729 546.929 59.8373 545.331 59.8354H224.2Z"
+                              fill="white"
+                            />
+                            <path
+                              d="M225.546 278.514C225.052 278.515 224.569 278.657 224.153 278.924C223.737 279.19 223.406 279.57 223.199 280.018L206.566 316.177C206.385 316.571 206.306 317.003 206.336 317.436C206.366 317.868 206.504 318.285 206.738 318.65C206.971 319.015 207.293 319.315 207.673 319.523C208.053 319.731 208.479 319.84 208.912 319.84H558.7C559.14 319.84 559.573 319.727 559.958 319.513C560.342 319.298 560.666 318.989 560.897 318.615C561.128 318.24 561.26 317.813 561.28 317.373C561.3 316.933 561.207 316.495 561.01 316.102L542.93 279.942C542.717 279.512 542.387 279.151 541.979 278.898C541.571 278.646 541.1 278.513 540.62 278.514H225.546Z"
+                              fill="#2F2E41"
+                            />
+                            <path
+                              d="M383.474 56.8222C385.614 56.8222 387.349 55.0876 387.349 52.948C387.349 50.8083 385.614 49.0737 383.474 49.0737C381.335 49.0737 379.6 50.8083 379.6 52.948C379.6 55.0876 381.335 56.8222 383.474 56.8222Z"
+                              fill="white"
+                            />
+                            <path
+                              d="M349.093 326.727C348.525 326.728 347.974 326.915 347.523 327.261C347.072 327.606 346.748 328.09 346.599 328.638L342.427 344.135C342.324 344.518 342.31 344.919 342.387 345.308C342.464 345.697 342.63 346.063 342.871 346.378C343.112 346.692 343.422 346.947 343.778 347.123C344.133 347.298 344.524 347.39 344.921 347.39H424.268C424.68 347.39 425.086 347.291 425.452 347.102C425.818 346.914 426.133 346.64 426.372 346.305C426.611 345.969 426.766 345.582 426.824 345.174C426.883 344.767 426.843 344.351 426.708 343.962L421.344 328.465C421.168 327.958 420.839 327.518 420.401 327.206C419.964 326.895 419.44 326.727 418.903 326.727H349.093Z"
+                              fill="#2F2E41"
+                            />
+                            <path
+                              d="M560.828 262.587V266.03H205.862L206.129 265.6V262.587H560.828Z"
+                              fill="#2F2E41"
+                            />
+                            <path
+                              d="M550.927 120.532C584.211 120.532 611.193 93.5498 611.193 60.2659C611.193 26.9819 584.211 0 550.927 0C517.643 0 490.661 26.9819 490.661 60.2659C490.661 93.5498 517.643 120.532 550.927 120.532Z"
+                              fill="#152742"
+                            />
+                            <path
+                              d="M575.894 86.5246H525.96C525.047 86.5237 524.171 86.1606 523.526 85.515C522.88 84.8693 522.517 83.9939 522.516 83.0809V52.9479C522.517 52.0349 522.88 51.1595 523.526 50.5139C524.171 49.8683 525.047 49.5051 525.96 49.5042H575.894C576.808 49.5051 577.683 49.8683 578.329 50.5139C578.974 51.1595 579.337 52.0349 579.338 52.9479V83.0808C579.337 83.9939 578.974 84.8693 578.329 85.515C577.683 86.1606 576.808 86.5237 575.894 86.5246ZM525.96 52.9479V83.0809H575.897L575.894 52.9479L525.96 52.9479Z"
+                              fill="white"
+                            />
+                            <path
+                              d="M566.424 52.948H535.43V39.1729C535.43 29.1956 541.948 21.9541 550.927 21.9541C559.907 21.9541 566.424 29.1956 566.424 39.1729L566.424 52.948ZM538.874 49.5042H562.981V39.1729C562.981 31.0625 558.024 25.3979 550.927 25.3979C543.831 25.3979 538.874 31.0625 538.874 39.1729L538.874 49.5042Z"
+                              fill="white"
+                            />
+                            <path
+                              d="M550.927 70.5972C552.829 70.5972 554.371 69.0554 554.371 67.1535C554.371 65.2515 552.829 63.7097 550.927 63.7097C549.025 63.7097 547.484 65.2515 547.484 67.1535C547.484 69.0554 549.025 70.5972 550.927 70.5972Z"
+                              fill="white"
+                            />
+                            <path
+                              d="M508.857 192.499H260.675C259.457 192.498 258.288 192.013 257.427 191.152C256.565 190.29 256.081 189.122 256.079 187.903V126.34C256.081 125.122 256.565 123.953 257.427 123.092C258.288 122.23 259.457 121.746 260.675 121.744H508.857C510.075 121.746 511.243 122.23 512.105 123.092C512.966 123.953 513.451 125.122 513.453 126.34V187.903C513.451 189.122 512.966 190.29 512.105 191.152C511.243 192.013 510.075 192.498 508.857 192.499ZM260.675 123.583C259.944 123.583 259.243 123.874 258.726 124.391C258.209 124.908 257.918 125.609 257.917 126.34V187.903C257.918 188.634 258.209 189.335 258.726 189.852C259.243 190.369 259.944 190.66 260.675 190.661H508.857C509.588 190.66 510.289 190.369 510.806 189.852C511.323 189.335 511.613 188.634 511.614 187.903V126.34C511.613 125.609 511.323 124.908 510.806 124.391C510.289 123.874 509.588 123.583 508.857 123.583L260.675 123.583Z"
+                              fill="#E6E6E6"
+                            />
+                            <path
+                              d="M299.237 173.481C309.577 173.481 317.959 165.099 317.959 154.76C317.959 144.42 309.577 136.038 299.237 136.038C288.898 136.038 280.516 144.42 280.516 154.76C280.516 165.099 288.898 173.481 299.237 173.481Z"
+                              fill="#E6E6E6"
+                            />
+                            <path
+                              d="M342.475 142.279C342.065 142.278 341.659 142.358 341.279 142.515C340.9 142.671 340.556 142.901 340.266 143.191C339.975 143.481 339.745 143.825 339.588 144.204C339.431 144.582 339.35 144.989 339.35 145.399C339.35 145.809 339.431 146.215 339.588 146.594C339.745 146.973 339.975 147.317 340.266 147.607C340.556 147.897 340.9 148.126 341.279 148.283C341.659 148.439 342.065 148.52 342.475 148.519H489.572C490.4 148.519 491.193 148.19 491.778 147.605C492.364 147.02 492.692 146.226 492.692 145.399C492.692 144.571 492.364 143.778 491.778 143.192C491.193 142.607 490.4 142.279 489.572 142.279H342.475Z"
+                              fill="#E6E6E6"
+                            />
+                            <path
+                              d="M342.475 161C341.647 161 340.854 161.329 340.269 161.914C339.683 162.499 339.355 163.293 339.355 164.12C339.355 164.948 339.683 165.741 340.269 166.327C340.854 166.912 341.647 167.24 342.475 167.24H405.771C406.599 167.24 407.392 166.912 407.978 166.327C408.563 165.741 408.892 164.948 408.892 164.12C408.892 163.293 408.563 162.499 407.978 161.914C407.392 161.329 406.599 161 405.771 161H342.475Z"
+                              fill="#E6E6E6"
+                            />
+                            <path
+                              d="M205.251 162.262L159.373 186.653L158.792 166.327C173.767 163.828 188.013 159.475 201.186 152.39L205.985 140.535C206.507 139.243 207.357 138.11 208.45 137.246C209.544 136.382 210.843 135.817 212.22 135.606C213.598 135.396 215.007 135.547 216.308 136.046C217.609 136.544 218.759 137.373 219.643 138.449C220.937 140.025 221.584 142.033 221.453 144.068C221.322 146.103 220.422 148.011 218.936 149.407L205.251 162.262Z"
+                              fill="#FFB8B8"
+                            />
+                            <path
+                              d="M93.1523 303.087C92.8176 301.86 92.7466 300.575 92.9438 299.318C93.1411 298.061 93.6021 296.86 94.2967 295.794L104.375 280.328C106.759 276.669 110.416 274.027 114.638 272.913C118.86 271.799 123.345 272.293 127.223 274.3C122.988 281.509 123.578 287.834 128.686 293.33C120.757 297.201 113.428 302.198 106.927 308.164C105.74 308.973 104.378 309.487 102.952 309.663C101.527 309.838 100.08 309.671 98.7319 309.174C97.3842 308.677 96.1747 307.866 95.2042 306.807C94.2337 305.748 93.5302 304.473 93.1523 303.087Z"
+                              fill="#2F2E41"
+                            />
+                            <path
+                              d="M207.341 282.864C205.816 285.406 203.663 287.513 201.089 288.983C198.516 290.453 195.607 291.237 192.643 291.26L125.69 291.767L122.787 274.925L152.404 266.214L127.433 247.05L154.727 215.109L204.303 261.316C207.2 264.016 209.083 267.63 209.636 271.552C210.189 275.474 209.379 279.467 207.341 282.864Z"
+                              fill="#2F2E41"
+                            />
+                            <path
+                              d="M115.237 398.042H99.5571C85.4788 301.541 71.1485 204.77 113.495 168.65L163.438 176.781L157.05 219.175L129.175 251.115L115.237 398.042Z"
+                              fill="#2F2E41"
+                            />
+                            <path
+                              d="M129.02 419.902C127.793 420.237 126.509 420.308 125.252 420.111C123.995 419.914 122.794 419.453 121.728 418.758L104.703 416.47C101.044 414.086 98.4015 410.429 97.2874 406.207C96.1734 401.985 96.6672 397.5 98.6732 393.622C105.883 397.857 112.208 397.266 117.704 392.158C121.587 399.999 127.986 399.521 134.097 406.127C134.906 407.314 135.42 408.677 135.595 410.102C135.771 411.528 135.604 412.975 135.107 414.322C134.61 415.67 133.799 416.88 132.74 417.85C131.681 418.821 130.406 419.524 129.02 419.902Z"
+                              fill="#2F2E41"
+                            />
+                            <path
+                              d="M152.404 104.188L123.367 97.2195C128.19 87.3481 128.587 76.3641 126.271 64.6982L146.016 64.1174C146.635 78.6243 148.507 92.1775 152.404 104.188Z"
+                              fill="#FFB8B8"
+                            />
+                            <path
+                              d="M160.385 194.266C139.247 208.67 124.311 194.759 112.914 173.296C114.498 160.163 111.933 144.446 107.184 127.369C105.072 119.836 105.86 111.786 109.394 104.806C112.928 97.827 118.95 92.4261 126.271 89.6699L151.243 100.123C172.447 117.407 176.62 136.128 168.665 155.874L160.385 194.266Z"
+                              fill="#152742"
+                            />
+                            <path
+                              d="M99.5571 118.707L76.3276 130.902L117.56 155.293L123.297 169.445C123.68 170.39 123.867 171.402 123.845 172.421C123.824 173.44 123.596 174.445 123.174 175.372C122.752 176.3 122.145 177.132 121.391 177.818C120.637 178.504 119.752 179.029 118.788 179.361C117.693 179.739 116.525 179.858 115.376 179.709C114.227 179.56 113.128 179.147 112.165 178.502C111.203 177.858 110.402 176.999 109.827 175.993C109.251 174.988 108.916 173.863 108.848 172.706L108.268 162.843L55.8623 145.549C54.0966 144.966 52.4867 143.99 51.1545 142.693C49.8222 141.396 48.8025 139.812 48.1727 138.063C47.2547 135.513 47.208 132.73 48.0399 130.151C48.8717 127.572 50.5353 125.341 52.7702 123.807L94.9112 94.8967L99.5571 118.707Z"
+                              fill="#FFB8B8"
+                            />
+                            <path
+                              d="M122.787 121.03C113.099 116.784 104.289 121.396 93.1691 125.095L91.4269 94.3159C102.468 88.4309 112.996 86.8443 122.787 91.4122L122.787 121.03Z"
+                              fill="#152742"
+                            />
+                            <path
+                              d="M134.376 79.3635C144.615 79.3635 152.915 71.0634 152.915 60.8246C152.915 50.5858 144.615 42.2856 134.376 42.2856C124.137 42.2856 115.837 50.5858 115.837 60.8246C115.837 71.0634 124.137 79.3635 134.376 79.3635Z"
+                              fill="#FFB8B8"
+                            />
+                            <path
+                              d="M156.554 58.4854C138.199 60.2832 124.213 57.2813 115.274 48.7338V41.8503H154.997L156.554 58.4854Z"
+                              fill="#2F2E41"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_309:629">
+                              <rect
+                                width="617.65"
+                                height="429.732"
+                                fill="white"
+                              />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- footer @s -->
+                <div class="footer">
+                  <div class="container wide-xl">
+                    <div class="footer__wrapper">
+                      <div class="footer-links">
+                        <div class="footer-left">
+                          <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Track Your Order</a></li>
+                            <li><a href="">Contact Us</a></li>
+                          </ul>
+                        </div>
+                        <div class="footer-mid">
+                          <ul>
+                            <li><a href="">Shipping Policy</a></li>
+                            <li><a href="">Refund Policy</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Terms of Service</a></li>
+                          </ul>
+                        </div>
+                        <div class="footer-right">
+                          <h6>Get Discount 10% on your first order</h6>
+                          <p>Join our newsletter. Get an instant discount.</p>
+                          <div class="input-btn">
+                            <input
+                              type="email"
+                              name=""
+                              id=""
+                              placeholder="Enter your e-mail"
+                            />
+                            <a href="#" class="btn btn-dark">GET MY 10% OFF</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="social-links">
+                        <a href=""
+                          ><em class="icon ni ni-facebook-circle"></em
+                        ></a>
+                        <a href=""><em class="icon ni ni-instagram"></em></a>
+                        <a href=""><em class="icon ni ni-twitter"></em></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- footer @e -->
+                <!-- Payment partners -->
+                <div class="payment-partners">
+                  <div class="payment-partners__wrapper container wide-xl">
+                    <p>PAYMENT PARTNERS</p>
+                    <div class="payment-icons">
+                      <img
+                        src="public/images/home/footer/Khalti_Digital_Wallet_Logo 1.png"
+                        alt=""
+                      />
+                      <img
+                        src="public/images/home/footer/Esewa_Logo_20201009153032_20201009153948_adobespark 1.png"
+                        alt=""
+                      />
+                      <img
+                        src="public/images/home/footer/image 48.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- copyright -->
+                <div class="copright">
+                  <div class="copright__wrapper container wide-xl">
+                    <div>
+                      <p>Copyright © 2021. SAGA.</p>
+                    </div>
+                    <div>
+                      <ul class="terms-privacy">
+                        <li><a href="">Terms and Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content @e -->
+        </div>
+        <!-- wrap @e -->
+      </div>
+      <!-- main @e -->
+    </div>
+    <!-- app-root @e -->
+
+    <!-- JavaScript -->
+    <script src="public/js/bundle.js"></script>
+    <script src="public/js/scripts.js"></script>
+  </body>
+</html>
