@@ -668,7 +668,7 @@ _ .popular-products__cards .products-card .products-detail .buttons a:last-child
 
 .footer {
     margin-top: 100px;
-    background-image: url("/public/images/home/footer/foot.jpg");
+    background-image: url("public/images/home/footer/foot.jpg");
 }
 
 .footer .footer__wrapper .footer-links {
