@@ -77,7 +77,7 @@ img {
 
 .nk-header {
     border: 0;
-    background: transparent !important;
+    background: #fff !important;
 }
 
 .active {
@@ -132,6 +132,7 @@ img {
 
 .web-header__main .nk-header-wrap .nk-header-tools {
     margin-left: 0;
+    /* opacity: 0; */
 }
 
 .web-header__main .nk-header-wrap .nk-header-tools .shopping-cart-icon {
@@ -1270,3 +1271,10 @@ _ .popular-products__cards .products-card .products-detail .buttons a:last-child
 .contact-us__form .form-group .btn {
     border-radius: 6px;
 }
+
+.allclass{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
