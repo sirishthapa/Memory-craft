@@ -1272,9 +1272,53 @@ _ .popular-products__cards .products-card .products-detail .buttons a:last-child
     border-radius: 6px;
 }
 
-.allclass{
+
+.allclass {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
 }
 
+.categories-heading {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.allheading {
+    text-align: center;
+    font-size: 50px;
+    color: #152742;
+    
+}
+
+.ordercontent{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    margin:  90px 120px;
+    gap: 30px;
+}
+
+.iphone-svg{
+    display: flex;
+    gap: 30px;
+}
+
+.star{
+    display: flex;
+    gap: 20px;
+}
+
+.star-icons{
+    color: #ffc61d;
+}
+
+.horizontal-line {
+    border-top: 0.5px solid black;
+  }
+
+.quantity{
+    display: flex;
+    gap: 20px;
+}
+  
