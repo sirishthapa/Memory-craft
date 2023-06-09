@@ -1321,4 +1321,18 @@ _ .popular-products__cards .products-card .products-detail .buttons a:last-child
     display: flex;
     gap: 20px;
 }
+
+.track-order-img{
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 40px;
+    margin-left: 20%;
+
+}
+.track-order-img img{
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
   
